@@ -29,7 +29,7 @@ export default {
        * 子コンポーネントを呼び出す箇所に「ref="child"」と記載します
        */
       if (eventName === "delete") {
-        this.$refs.child.deleteConfirmDialog()
+        // TODO ここに必要な処理を追加してください
 
       } else if (eventName === "showDetail") {
         // もしexecuteConfirmDialogの引数に渡されたイベント名が"showDetail"だったら〜の処理の場合です
