@@ -46,7 +46,7 @@ export default {
     checkIsMatchBothStrings() {
       // 文字列が一致した時のみ閉じる仕様です
       if (this.baseString === this.dataSample) {
-        return false
+        return true
       }
       return true
     },
