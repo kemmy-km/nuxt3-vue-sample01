@@ -91,7 +91,7 @@ export default {
     executeClose() {
       // 親側のメソッドを呼び出す。ここの引数でfalseを指定する場合は、親側の`this.shouldDialog`をfalseにする
       // `parent-event2`は、親側で子を呼び出す箇所で使用する`@parent-event2="closeDialog"`で 記述されている
-      this.$emit("parent-event2", false)
+      // TODO 問3：ここに記述を追加してください
     },
   },
 }
